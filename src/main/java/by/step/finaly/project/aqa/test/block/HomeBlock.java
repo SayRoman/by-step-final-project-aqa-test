@@ -23,12 +23,11 @@ public class HomeBlock extends BaseBlock{
 
     @FindBy(className="FlatButton__content")
     public WebElement flatButtonGoogle;
-
-    @FindBy(className="FlatButton__content")
-    public WebElement flatButtonGoogleContent;
+   
 
     @FindBy(xpath="//*[@id=\"content\"]/div[1]/div[1]/div/div[1]/div[3]/div/a[1]")
-    public WebElement linkGooglePlay;
+    public WebElement contentGooglePlay;
+
 
 
 }

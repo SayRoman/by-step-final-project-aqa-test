@@ -63,7 +63,8 @@ public class HomePageTest extends BaseTestUIClass {
         //Then
 
         Assertions.assertEquals(true, homeService.getHomePage().getHomePage().flatButtonGoogle.isDisplayed());
-        Assertions.assertEquals("https://play.google.com/store/apps/details?id=com.vkontakte.android", homeService.getHomePage().getHomePage().linkGooglePlay.getText());
+        Assertions.assertEquals("Google Play", homeService.getHomePage().getHomePage().contentGooglePlay.getText());
+
 
 
 
